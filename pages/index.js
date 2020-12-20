@@ -12,14 +12,14 @@ const App =()=>{
                 <div className={styles.item}><Workspace /></div>
                 <div className={styles.item}><Packages /></div>
                 <div className={styles.item}><Team /></div>
-                </div>
-                </div>
-                <div className={styles.content_top}>
+              </div>
+              </div>
+              <div className={styles.content_top}>
               <div className={styles.content}>
                 <div className={styles.item}><Compare /></div>
               </div>
               </div>
-              </div>
+           </div>
           
         
 }
