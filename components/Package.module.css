@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns:auto;
+    background:black;
+    gap: 10px;
+    justify-content: center; 
+}
+
+.item{
+    margin-left: 50px;
+}
+
+.btn_txt{
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 50px;
+    height: 40px;
+}
+
+.container_whole{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: normal;
+}

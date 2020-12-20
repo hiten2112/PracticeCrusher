@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_in{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    align-items: center;
+}
+
+.item{
+    margin-left: 50px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.head{
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+    font-size: x-large;
+
+}

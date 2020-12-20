@@ -1,0 +1,16 @@
+.section{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+}
+.item{
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+}
+.content{
+    padding: 0 10rem 0 10rem;
+}
+.content_top{
+    background-image: linear-gradient(black 60%, rgb(11,10,14));
+}
